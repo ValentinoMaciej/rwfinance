@@ -1,0 +1,43 @@
+.navBar {
+  background-color: #323232;
+  width: auto;
+  height: 11vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navLogo {
+  height: 9vh;
+  width: auto;
+}
+
+.navigateOption {
+  width: 70vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navigateOption a {
+  text-decoration: none;
+  color: white;
+}
+
+.contactUsButton {
+  width: 10vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-size: larger;
+}
+
+.contactUsButton a {
+  color: #323232;
+  text-decoration: none;
+}

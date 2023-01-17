@@ -3,7 +3,7 @@ import BlackLogoNoBG from "../LogoImage/BlackLogoNoBG.svg";
 
 function MainPage() {
   return (
-    <div className="App">
+    <div>
       <img
         src={BlackLogoNoBG}
         alt="logo of company"

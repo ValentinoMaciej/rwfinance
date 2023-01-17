@@ -1,9 +1,10 @@
+import MainPage from "./components/MainPage/MainPage";
 import "./index.css";
 
 function App() {
   return (
     <div className="App">
-      <div>Testowy napis</div>
+      <MainPage />
     </div>
   );
 }

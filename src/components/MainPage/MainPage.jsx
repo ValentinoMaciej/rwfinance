@@ -90,6 +90,7 @@ function MainPage() {
           </figure>
         </div>
       </section>
+      <Contact />
     </>
   );
 }

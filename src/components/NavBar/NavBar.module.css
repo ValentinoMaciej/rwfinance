@@ -38,10 +38,24 @@
   align-content: center;
   font-size: larger;
   border-radius: 15px;
+
+  border-color: white;
+}
+
+.contactUsButton:hover {
+  transition: 0.7s;
+  background-color: #323232;
+  border: 1px solid;
+  border-color: white;
+  color: white;
 }
 
 .contactUsButton a {
   color: #323232;
   text-decoration: none;
   font-size: 0.7em;
+}
+
+.contactUsButton:hover a {
+  color: white;
 }

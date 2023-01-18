@@ -23,35 +23,40 @@ function MainPage() {
         <p className={styles.articleTitle}>
           Ty zlecasz zadanie - my je wykonujemy.
         </p>
-        <article className={styles.mainArticle}>
-          <p>
-            <p className={styles.pTitle}>
-              Ubezpieczenia - najlepiej i najtaniej
-            </p>
-            W naszej ofercie znajdują się największe i <br /> najlepsze
-            Towarzystwa Ubezpieczeniowe - Ty
-            <br /> chcesz najlepszą ofertę - my ją Tobie
-            <br />
-            przedstawiamy!
-          </p>
-          <article>
-            <p>
+        <div className={styles.mainArticle}>
+          <div className={styles.divFlex}>
+            <article className={styles.articleStyling}>
+              <p className={styles.pTitle}>
+                Ubezpieczenia - najlepiej i najtaniej
+              </p>
+              <p>
+                W naszej ofercie znajdują się największe i <br /> najlepsze
+                Towarzystwa Ubezpieczeniowe - Ty
+                <br /> chcesz najlepszą ofertę - my ją Tobie
+                <br />
+                przedstawiamy!
+              </p>
+            </article>
+
+            <article className={styles.articleStyling}>
               <p className={styles.pTitle}>Kredyty - spełnij swoje marzenia</p>
-              Współpracujemy od lat z Bankami w Polsce
-              <br /> - nie trać czasu na bieganie po Bankach - my
-              <br /> przedstawimy Ci ofertę najlepszych z nich.
-            </p>
-          </article>
-          <article>
-            <p>
+              <p>
+                Współpracujemy od lat z Bankami w Polsce
+                <br /> - nie trać czasu na bieganie po Bankach - my
+                <br /> przedstawimy Ci ofertę najlepszych z nich.
+              </p>
+            </article>
+            <article className={styles.articleStyling}>
               <p className={styles.pTitle}>Leasingi - auta z salonu od ręki</p>
-              Czekasz na auto ? U nas auto prosto z salonu,
-              <br /> zarówno leasingi jak i najem
-              <br /> długoterminowy. Duży wybór marek
-              <br /> samochodów na korzystnych rabatach.
-            </p>
-          </article>
-        </article>
+              <p>
+                Czekasz na auto ? U nas auto prosto z salonu,
+                <br /> zarówno leasingi jak i najem
+                <br /> długoterminowy. Duży wybór marek
+                <br /> samochodów na korzystnych rabatach.
+              </p>
+            </article>
+          </div>
+        </div>
       </section>
       <section className={styles.gallerySection}>
         <p className={styles.galleryTitle}>

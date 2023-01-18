@@ -1,7 +1,7 @@
 .navBar {
   background-color: #323232;
   width: auto;
-  height: 5rem;
+  height: 10em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -24,6 +24,7 @@
 
 .footerOption p {
   color: white;
+  font-weight: bold;
 }
 
 .contactUsButton {
@@ -40,4 +41,15 @@
 .contactUsButton a {
   color: #323232;
   text-decoration: none;
+  font-size: 1em;
+}
+
+.footerLogo {
+  height: 4em;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

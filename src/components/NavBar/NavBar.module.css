@@ -25,6 +25,7 @@
 .navigateOption a {
   text-decoration: none;
   color: white;
+  font-size: 1em;
 }
 
 .contactUsButton {
@@ -35,6 +36,7 @@
   justify-content: center;
   align-content: center;
   font-size: larger;
+  border-radius: 15px;
 }
 
 .contactUsButton a {

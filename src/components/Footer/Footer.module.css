@@ -18,8 +18,13 @@
   width: 70vw;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+
+.footerTitle {
+  margin: 1em;
 }
 
 .footerOption p {

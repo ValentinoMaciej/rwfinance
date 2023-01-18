@@ -4,7 +4,6 @@ import carImage from "../MainPage/SectionImage/carImage.webp";
 import familyImage from "../MainPage/SectionImage/familyImage.webp";
 import houseImage from "../MainPage/SectionImage/houseImage.webp";
 import doctorImage from "../MainPage/SectionImage/doctorImage.webp";
-import Contact from "../Contact/Contact";
 
 function MainPage() {
   return (
@@ -90,7 +89,6 @@ function MainPage() {
           </figure>
         </div>
       </section>
-      <Contact />
     </>
   );
 }

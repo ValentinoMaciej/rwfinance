@@ -1,5 +1,4 @@
 import styles from "./Contact.module.css";
-
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -64,6 +63,7 @@ export const Contact = () => {
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
         className={styles.mapGoogle}
+        title="google map"
       ></iframe>
     </div>
   );

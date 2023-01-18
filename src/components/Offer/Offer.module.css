@@ -1,0 +1,48 @@
+.mainSection {
+  height: 35em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../Offer/OfferImages/skyImage.webp) no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.articlesSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainSection p {
+  font-size: 3em;
+  font-weight: bolder;
+  width: auto;
+}
+
+.mainLogo {
+  height: 20vw;
+  width: auto;
+}
+
+.insuranceArticle {
+  display: flex;
+  flex-direction: row;
+}
+
+.bankArticle {
+  display: flex;
+  flex-direction: row;
+}
+
+.carArticle {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionImages {
+  height: 35em;
+  width: auto;
+}

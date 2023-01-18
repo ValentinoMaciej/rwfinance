@@ -41,29 +41,19 @@
 .divFlex {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .mainArticle p {
-  margin: 1em;
+  margin-bottom: 1em;
   font-size: 1em;
 }
 
 .articlesSection article {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   font-size: 1em;
 }
 
-/* .articleStyling {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
 .pTitle {
-  /* font-size: 1em; */
   font-weight: bolder;
   font-size: larger;
 }

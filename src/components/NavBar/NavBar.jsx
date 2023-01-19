@@ -1,5 +1,6 @@
 import styles from "./NavBar.module.css";
 import WhiteLogoNoBG from "../LogoImage/WhiteLogoNoBG.svg";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -11,17 +12,17 @@ function NavBar() {
       />
       <ul className={styles.navigateOption}>
         <li>
-          <a href="#menu">Menu Główne</a>
+          <NavLink to="/">Menu Główne</NavLink>
         </li>
         <li>
-          <a href="#offer">Oferta</a>
+          <NavLink to="/oferta">Oferta</NavLink>
         </li>
         <li>
-          <a href="#contact">Kontakt</a>
+          <NavLink to="/kontakt">Kontakt</NavLink>
         </li>
       </ul>
       <button className={styles.contactUsButton}>
-        <a href="#contact">Napisz do nas !</a>
+        <NavLink to="/kontakt">Napisz do nas !</NavLink>
       </button>
     </nav>
   );

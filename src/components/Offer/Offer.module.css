@@ -11,9 +11,11 @@
 
 .articlesSection {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  background-color: white;
+  margin-bottom: 1em;
 }
 
 .mainSection p {
@@ -27,22 +29,62 @@
   width: auto;
 }
 
+.gridContainer {
+  width: 80%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "insuranceArticle insurance"
+    "bankLogo bank"
+    "carArticle car";
+}
+
+.insuranceLogo {
+  grid-area: insurance;
+  width: 30em;
+}
+
 .insuranceArticle {
-  display: flex;
-  flex-direction: row;
+  grid-area: insuranceArticle;
+  width: 30em;
 }
 
 .bankArticle {
-  display: flex;
-  flex-direction: row;
+  grid-area: bank;
+  width: 30em;
+}
+.bankLogo {
+  grid-area: bankLogo;
+  width: 30em;
+}
+
+.carImage {
+  grid-area: car;
+  width: 30em;
 }
 
 .carArticle {
-  display: flex;
-  flex-direction: row;
+  grid-area: carArticle;
+  width: 30em;
 }
 
+.articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .sectionImages {
-  height: 35em;
-  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.offerTitle {
+  margin: 1em;
 }

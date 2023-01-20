@@ -152,6 +152,9 @@
     justify-content: center;
   }
   .articleText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: justify;
   }
 }

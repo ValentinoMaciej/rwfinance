@@ -64,3 +64,20 @@
   width: 160px;
   color: white;
 }
+
+@media (max-width: 519px) {
+  .contactSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .mapGoogle {
+    height: fit-content;
+    margin: 10px 0px 10px 0px;
+  }
+  .contactForm {
+    margin-top: 20px;
+  }
+  .footerTitleText {
+    text-align: center;
+  }
+}

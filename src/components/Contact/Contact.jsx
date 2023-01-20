@@ -49,7 +49,7 @@ export const Contact = () => {
       </form>
       <article className={styles.contactInformation}>
         <p className={styles.footerTitle}>RW FINANCE</p>
-        <p>
+        <p className={styles.footerTitleText}>
           ul. Targowa 9, pokój 2.12 <br /> 66-400 Gorzów Wielkopolski <br />
           e-mail: biuro@rwfinance.pl <br /> tel. +48 791 422 959 / 511 903 003
         </p>

@@ -7,7 +7,7 @@ import carImage from "./OfferImages/carImage.webp";
 function Offer() {
   return (
     <>
-      <section>
+      <section className={styles.mainSectionSize}>
         <div className={styles.mainSection}>
           <img
             src={BlackLogoNoBG}

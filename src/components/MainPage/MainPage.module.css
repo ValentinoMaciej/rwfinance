@@ -32,6 +32,7 @@
   font-size: 3em;
   font-weight: 900;
   margin: 1em;
+  text-align: center;
 }
 
 .mainArticle {
@@ -79,6 +80,7 @@
   font-size: 3em;
   font-weight: 900;
   margin: 1em;
+  text-align: center;
 }
 
 .sectionImages {
@@ -130,7 +132,7 @@
   .galleryTitle,
   .articleTitle {
     font-size: 25px;
-    text-align: justify;
+    text-align: center;
   }
   .mainSection {
     height: 20em;
@@ -156,5 +158,15 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
+  }
+}
+
+@media (min-width: 519px) and (max-width: 930px) {
+  .mainSection p {
+    text-align: center;
+  }
+  .galleryTitle,
+  .articleTitle {
+    text-align: center;
   }
 }

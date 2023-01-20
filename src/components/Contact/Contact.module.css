@@ -71,7 +71,7 @@
     flex-direction: column;
   }
   .mapGoogle {
-    height: fit-content;
+    width: auto;
     margin: 10px 0px 10px 0px;
   }
   .contactForm {
@@ -96,5 +96,9 @@
   }
   .footerTitleText {
     text-align: center;
+  }
+  .mapGoogle {
+    width: auto;
+    margin: 10px 0px 10px 0px;
   }
 }

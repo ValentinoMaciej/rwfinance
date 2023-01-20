@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vw;
+  height: 10vw;
 }
 
 .footerOption {
@@ -71,11 +71,18 @@
   }
   .footercompanyLogo {
     margin: 0px 10px 0px 10px;
+    height: 20vw;
   }
   .footerLogo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 15vw;
+  }
+}
+@media (min-width: 519px) and (max-width: 930px) {
+  .footercompanyLogo {
+    margin: 0px 10px 0px 10px;
+    height: 18vw;
   }
 }

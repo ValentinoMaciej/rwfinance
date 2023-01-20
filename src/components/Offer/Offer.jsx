@@ -30,7 +30,7 @@ function Offer() {
           />
           <article className={`${styles.articles} ${styles.insuranceArticle}`}>
             <h3>Najwięszy, najlepszy i najtańszy wybór ubezpieczeń.</h3>
-            <p>
+            <p className={styles.articlePStyling}>
               W swojej ofercie posiadamy jedynie renomowane i uznane <br />{" "}
               Towarzystwa Ubezpieczeniowe. W ofercie mamy <br /> przedstawicieli
               Polskich jak i zagranicznych a także jako <br /> nieliczni
@@ -43,7 +43,7 @@ function Offer() {
 
           <article className={`${styles.articles} ${styles.bankArticle}`}>
             <h3>U nas oferty wszystkich Banków w jednym miejscu !</h3>
-            <p>
+            <p className={styles.articlePStyling}>
               Zamiast chodzić po Bankach za ofertą kredytu, leasingu czy
               <br />
               hipoteki - zostaw to nam. W swojej ofercie posiadamy
@@ -69,7 +69,7 @@ function Offer() {
           />
           <article className={`${styles.articles} ${styles.carArticle}`}>
             <h3>Poczuj zapach szczęścia w nowym aucie.</h3>
-            <p>
+            <p className={styles.articlePStyling}>
               Masz dość jeżdżenia po mechanikach ze swoim używanym
               <br /> samochodem ? Wymień samochód na nowy wraz z<br /> RW
               Finance. W naszej ofercie znajdziesz pełną gamę <br />

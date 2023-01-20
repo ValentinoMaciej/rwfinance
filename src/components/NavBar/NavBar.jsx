@@ -1,6 +1,7 @@
 import styles from "./NavBar.module.css";
 import WhiteLogoNoBG from "../LogoImage/WhiteLogoNoBG.svg";
 import { NavLink } from "react-router-dom";
+import hamburgerMenu from "./NavBarImages/hamburgerMenu.svg";
 
 function NavBar() {
   return (
@@ -24,6 +25,12 @@ function NavBar() {
       <button className={styles.contactUsButton}>
         <NavLink to="/kontakt">Napisz do nas !</NavLink>
       </button>
+
+      <img
+        src={hamburgerMenu}
+        alt="mobile menu icon"
+        className={styles.hamburgerMenu}
+      />
     </nav>
   );
 }

@@ -1,17 +1,20 @@
-.navBar {
+.footer {
   background-color: #323232;
   width: auto;
   height: 10em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.navLogo {
-  height: auto;
-  width: auto;
+.footercompanyLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vw;
 }
 
 .footerOption {
@@ -59,4 +62,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media (max-width: 519px) {
+  .footerTitle,
+  .footerOption p {
+    font-size: 10px;
+  }
+  .footercompanyLogo {
+    margin: 0px 10px 0px 10px;
+  }
+  .footerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+  }
 }

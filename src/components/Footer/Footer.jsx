@@ -7,11 +7,11 @@ import Copyright from "./Copyright/Copyright";
 function Footer() {
   return (
     <>
-      <nav className={styles.navBar}>
+      <nav className={styles.footer}>
         <img
           src={WhiteLogoNoBG}
           alt="logo of company"
-          className={styles.navLogo}
+          className={styles.footercompanyLogo}
         />
         <article className={styles.footerOption}>
           <p className={styles.footerTitle}>RW FINANCE</p>

@@ -29,7 +29,7 @@ function MainPage() {
               <p className={styles.pTitle}>
                 Ubezpieczenia - najlepiej i najtaniej
               </p>
-              <p>
+              <p className={styles.articleText}>
                 W naszej ofercie znajdują się największe i <br /> najlepsze
                 Towarzystwa Ubezpieczeniowe - Ty
                 <br /> chcesz najlepszą ofertę - my ją Tobie
@@ -40,7 +40,7 @@ function MainPage() {
 
             <article className={styles.articleStyling}>
               <p className={styles.pTitle}>Kredyty - spełnij swoje marzenia</p>
-              <p>
+              <p className={styles.articleText}>
                 Współpracujemy od lat z Bankami w Polsce
                 <br /> - nie trać czasu na bieganie po Bankach - my
                 <br /> przedstawimy Ci ofertę najlepszych z nich.
@@ -48,7 +48,7 @@ function MainPage() {
             </article>
             <article className={styles.articleStyling}>
               <p className={styles.pTitle}>Leasingi - auta z salonu od ręki</p>
-              <p>
+              <p className={styles.articleText}>
                 Czekasz na auto ? U nas auto prosto z salonu,
                 <br /> zarówno leasingi jak i najem
                 <br /> długoterminowy. Duży wybór marek

@@ -125,3 +125,33 @@
   -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
   box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 }
+
+@media (max-width: 519px) {
+  .galleryTitle,
+  .articleTitle {
+    font-size: 25px;
+    text-align: justify;
+  }
+  .mainSection {
+    height: 20em;
+  }
+
+  .mainSection p {
+    font-size: 25px;
+    text-align: center;
+  }
+  .divFlex {
+    display: flex;
+    flex-direction: column;
+  }
+  .articlesSection {
+    height: 40em;
+  }
+  .pTitle {
+    display: flex;
+    justify-content: center;
+  }
+  .articleText {
+    text-align: justify;
+  }
+}

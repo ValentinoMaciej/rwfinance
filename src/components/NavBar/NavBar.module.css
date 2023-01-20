@@ -59,3 +59,18 @@
 .contactUsButton:hover a {
   color: white;
 }
+
+@media (max-width: 519px) {
+  .navigateOption,
+  .contactUsButton {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (min-width: 520px) {
+  .hamburgerMenu {
+    display: none;
+  }
+}

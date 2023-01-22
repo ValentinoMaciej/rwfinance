@@ -30,7 +30,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #f6f6f6;
+  background: url(../Contact/ContactImages/shakingHands.webp) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .mapGoogle {
@@ -42,10 +44,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-weight: bolder;
 }
 
 .footerTitle {
   margin-bottom: 2em;
+  text-align: center;
+}
+.footerTitleText {
+  text-align: center;
 }
 
 .inputStyle {

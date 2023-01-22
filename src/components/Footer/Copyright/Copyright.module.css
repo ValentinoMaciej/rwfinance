@@ -1,10 +1,12 @@
 .copyright {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 @media (max-width: 519px) {
   .copyrightParagraph {
     font-size: 10px;
+    text-align: center;
   }
 }

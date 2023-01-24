@@ -3,6 +3,9 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
+  const myClick = () => {
+    return alert("Wysłano wiadomość, dziękujemy za kontakt !");
+  };
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -45,7 +48,12 @@ export const Contact = () => {
           name="message"
           className={`${styles.textarealInput} ${styles.inputStyle}`}
         />
-        <input type="submit" value="Wyślij" className={styles.sendButton} />
+        <input
+          type="submit"
+          value="Wyślij"
+          className={styles.sendButton}
+          onClick={myClick}
+        />
       </form>
       <article className={styles.contactInformation}>
         <p className={styles.footerTitle}>RW FINANCE</p>

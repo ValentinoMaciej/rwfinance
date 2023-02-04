@@ -33,6 +33,7 @@
   background: url(../Contact/ContactImages/shakingHands.webp) no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  padding-top: 70px;
 }
 
 .mapGoogle {
